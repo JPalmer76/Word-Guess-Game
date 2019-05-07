@@ -27,7 +27,10 @@ var categories = {
     colors: [
         'red',
         'blue',
-        'green'
+        'green',
+        'fusia',
+        'purple',
+        
     ]
 }
 
@@ -53,13 +56,9 @@ function selectCategory(categoryName) {
     document.getElementById('dashes').innerHTML = stringOfDashes;   
 }
 
-// put the answer array in the apparopriate div
-
-
-// create a variable
 
 //  var remainningLetters = word.length;
 
-//  ************* THE MAIN GAME LOOP *****************
+
 
 
