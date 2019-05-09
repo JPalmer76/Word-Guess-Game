@@ -5,15 +5,18 @@
     <title>Word Guess Game</title>
     <!-- reset css -->
     <link rel="resetstylesheet" type="reset/css" href="./assets/css/reset.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- css style -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- javascript -->
-    
+
+
 </head>
 
 <body>
+
+
 
     <div class="container">
         <div class="col-12">
@@ -28,7 +31,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="thing">
-                        <button id="things" onclick="selectCategory('travel')"type="button">Travel</button>
+                        <button id="things" onclick="selectCategory('travel')" type="button">Travel</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -43,13 +46,38 @@
                 </div>
             </div>
         </div>
+
         <div class="underscore">
             <p id="dashes"></p>
-        </div>
-        <div class="Guesses">Guesses</div>
-    </div>
 
-    <script src="./assets/js/guess.js"></script>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-sm">
+            </div>
+        </div>
+
+
+        <div class="letters">
+            <div class="col-md-9">
+                <div id="guesses">Guesses</div>
+                <span id="lettersGuessed"></span>
+
+                <div class="col-md-3">
+                    <span id="guessesLeft">10</span>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <script src="./assets/js/guess.js"></script>
+
 </body>
 
 </html>
