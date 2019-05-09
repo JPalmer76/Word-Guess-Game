@@ -2,6 +2,7 @@
 var category = [];
 var word = "";
 var dashes = [];
+var guessesLeft = 10;
 var categories = {
     travel: [
         'suitcase',
@@ -57,7 +58,18 @@ function selectCategory(categoryName) {
 }
 
 
+
+
+
+
+
+
+
+
+
 //  var remainningLetters = word.length;
+
+
 
 
 
