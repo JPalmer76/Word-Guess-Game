@@ -55,30 +55,45 @@
 
 
         </div>
-        
+
 
 
         <div class="letters">
-            <div class="col-md-9">
-                <div id="guesses">Incorrect Guesses
+            <div class="row">
+                <div class="col-3-md id=" win>
                     <h3 id="wins">wins: 0</h3>
-                    <h3 id="losses">losses: 0</h3>
                 </div>
-                <span id="lettersGuessed"></span>
+                <div class="col-md">
+                    <div id="guess">
+                        <h3 id="guesses">Guesses</h3>
+                    </div>
+                </div>
+                <div class="col-md-">
+                    <div id="lose">
+                        <h3 id="losses">losses: 0</h3>
+                    </div>
+                </div>
 
-                <div class="col-md-3">
-                    <h6>Choose correctly, you only have <span id="guessesLeft">10</span> guesses!!</h6>
-                    
+
+
+                <div id="choose" class="col-md-3">
+                    <h6><span id="guessesLeft">10</span>guesses left!!</h6>
+
                 </div>
+                <div class="row">
+                    <span id="lettersGuessed"></span>
+                </div>
+
             </div>
 
 
 
 
 
-        </div>
 
-        <script src="./assets/js/guess.js"></script>
+        </div>
+    </div>
+      <script src="./assets/js/guess.js"></script>
 
 </body>
 

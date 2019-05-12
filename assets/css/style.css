@@ -1,3 +1,11 @@
+.container {
+  margin-top: 40px;
+  background-color: lightblue;
+}
+
+
+
+
 header {
   border: 3px solid black;
   font-size: 23px;
@@ -34,8 +42,26 @@ header {
   border-radius: 6px;
 }
 
-#letter {
+
+#guess {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
   
+}
+
+#wins {
+  margin-left: 50px;
+}
+
+#losses {
+  margin-right: 50px;
+}
+
+#choose {
+  padding: -60px;
+  margin-top: 20px;
+  margin-left: 60px;
 }
 
 
