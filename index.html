@@ -23,6 +23,7 @@
             <div class="row">
                 <header>
                     <h1>Word Guess Game</h1>
+                    <h3 id="message">Choose a category to begin!</h3>
                 </header>
             </div>
         </div>
@@ -54,17 +55,20 @@
 
 
         </div>
-        <button onclick="userguess('alpha')" id="letter" type="button"><input> Guess</input></button>
-
+        
 
 
         <div class="letters">
             <div class="col-md-9">
-                <div id="guesses">Guesses</div>
+                <div id="guesses">Incorrect Guesses
+                    <h3 id="wins">wins: 0</h3>
+                    <h3 id="losses">losses: 0</h3>
+                </div>
                 <span id="lettersGuessed"></span>
 
                 <div class="col-md-3">
-                    <span id="guessesLeft">10</span>
+                    <h6>Choose correctly, you only have <span id="guessesLeft">10</span> guesses!!</h6>
+                    
                 </div>
             </div>
 
