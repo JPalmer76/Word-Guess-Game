@@ -1,13 +1,22 @@
+body {
+  background-image: url(../images/5084485739_c88fb828a3_b.jpg);
+  
+}
+
+
+
+
 .container {
   margin-top: 40px;
-  background-color: lightblue;
+  
 }
 
 
 
 
 header {
-  border: 3px solid black;
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
   font-size: 23px;
   text-align: center;
   margin: 0 auto;
@@ -67,7 +76,8 @@ header {
 
 
 .underscore {
-  border: 3px solid black;
+  border: 3px solid whitesmoke;
+  color: darkgreen;
   font-size: 100px;
   text-align: center;
   margin: 30px auto;
@@ -76,7 +86,8 @@ header {
 }
 
 .letters {
-  border: 3px solid black;
+  border: 3px solid whitesmoke;
+  color: darkorchid;
   font-size: 40px;
   text-align: center;
   margin: 25px auto;

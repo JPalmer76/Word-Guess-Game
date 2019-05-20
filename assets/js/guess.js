@@ -20,8 +20,8 @@ var categories = {
     "rental car",
     "hairbrush"
   ],
-  animals: ["goat", "bird", "cat", "hippo", "lion", "cheetah"],
-  colors: ["red", "blue", "green", "fusia", "purple"]
+  animals: ["goat", "bird", "cat", "hippo", "lion", "cheetah","elk",],
+  colors: ["red", "blue", "green", "fusia", "purple","orange", "black"]
 };
 var messages = {
   newGame: "Choose a category to begin!",
@@ -29,7 +29,9 @@ var messages = {
   lose: "You Lose!! Select a new category to play again!",
   win: "You win!! Select a new category to play again!",
   alreadyGuessed: "You already guessed that letter!",
-  keepGuessing: "Keep guessing!"
+  keepGuessing: "Keep guessing!",
+  travel: "Things you need when you travel",
+  animals:"Animals Everywhere!!"
 }
 
 function selectCategory(categoryName) {
@@ -50,7 +52,10 @@ function selectCategory(categoryName) {
   var stringOfDashes = dashes.join(" ");
   document.getElementById("dashes").innerHTML = stringOfDashes;
   document.getElementById("message").innerHTML = messages.howToPlay;
+  
 }
+
+
 
 
 
