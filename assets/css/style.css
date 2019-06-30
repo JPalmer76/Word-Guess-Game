@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/5084485739_c88fb828a3_b.jpg);
+  background-image: url(../images/antique-backdrop-background-129731.jpg);
   
 }
 
@@ -15,8 +15,8 @@ body {
 
 
 header {
-  border: 3px solid whitesmoke;
-  color: whitesmoke;
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   font-size: 23px;
   text-align: center;
   margin: 0 auto;
@@ -76,8 +76,8 @@ header {
 
 
 .underscore {
-  border: 3px solid whitesmoke;
-  color: darkgreen;
+  border: 3px solid black;
+  color: rgb(0, 0, 0);
   font-size: 100px;
   text-align: center;
   margin: 30px auto;
@@ -86,8 +86,8 @@ header {
 }
 
 .letters {
-  border: 3px solid whitesmoke;
-  color: darkorchid;
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   font-size: 40px;
   text-align: center;
   margin: 25px auto;
